@@ -1,0 +1,54 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model checkpoints / saved weights
+*.pt
+*.pth
+*.h5
+*.pkl
+*.npy
+*.npz
+dry_bean/data/
+temp.py
